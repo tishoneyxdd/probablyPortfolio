@@ -451,12 +451,12 @@ video {
 
 /* ------ Background photo ------ */
 .bg-photo {	
-	z-index: -9;	
+	z-index: -20;	
 	position: fixed;
 	top: 0; 
-	right: 0; 
+	right: -25%; 
 	bottom: 0; 
-	left: 35%;
+	left: -200;
 	background-image: url(Imagemy);
 	background-repeat: no-repeat; 
 	-webkit-background-size: cover;
@@ -489,7 +489,7 @@ video {
 }
 		@media screen and (max-width:480px) {
 			.bg-photo {
-				left: -8%;
+				left: -100%;
 			}	
 		}
 
