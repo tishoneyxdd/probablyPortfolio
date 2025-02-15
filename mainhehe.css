@@ -25,6 +25,17 @@
 	font-weight: 500;
 	font-style: normal;
 }
+
+html, body {
+	overflow: auto; /* Enables scrolling */
+	scrollbar-width: none; /* Hides scrollbar in Firefox */
+	-ms-overflow-style: none; /* Hides scrollbar in IE and Edge */
+  }
+  
+  /* Hide scrollbar in Chrome, Safari */
+  ::-webkit-scrollbar {
+	display: none;
+  }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
